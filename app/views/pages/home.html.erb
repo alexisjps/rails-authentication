@@ -1,2 +1,10 @@
 <h1>Pages#home</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
+
+
+<% if current_user != nil %>
+    <%= current_user.email %>
+<% else %>
+
+    <p> Tu n'es pas co deso </p>
+<% end %>
