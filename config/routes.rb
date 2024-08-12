@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :products
+  resources :flats
   resources :restaurants
   devise_for :users
   root to: "pages#home"
